@@ -1,0 +1,72 @@
+.index{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:peachpuff;
+}
+header, footer {
+    background-color:palevioletred;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    background-color:pink;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
+    background-color:peachpuff;
+    text-align: center;
+}
+.div1{
+    display:inline-block;
+    margin-left:50px;
+    margin-right:50px;
+}
+.shoe img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.contact {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+h1, .info, h2{
+text-align: left;
+}
+img{border:15px outset;
+border-color:#b0757c;
+border-radius:5px;
+}
+.contact{
+background-color: pink;
+}
+body{background-color:pink;
+}
+h1{text-align:center;
+ color:palevioletred;
+ font-family:Algerian;
+ border:3px solid palevioletred;
+}
+h2{font-family:Impact;
+ text-align:center;
+ color:palevioletred;
+}
+marquee{color:palevioletred ;
+}
+hr{
+    color:palevioletred
+}
