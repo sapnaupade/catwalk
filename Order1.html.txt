@@ -1,0 +1,61 @@
+Order1.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>order page</title>
+<style>
+body{background-color:pink;
+}
+h1{text-align:center;
+ color:palevioletred;
+ font-family:Algerian;
+ border:3px solid palevioletred;
+}
+h2{font-family:Impact;
+ text-align:center;
+ color:palevioletred;
+}
+marquee{color:palevioletred ;
+}
+hr{
+    color:palevioletred
+}
+</style>
+</head>
+<body>
+<h1><u>Place an order</u></h1>
+<hr>
+<marquee><h3>Extra 20% off on first order!</h3></marquee>
+<hr>
+<h2><b>SELECT SHOE TYPE:</b></h2>
+<center><form>
+<label for="shoe type">OPTIONS:</label><br>
+<select name="shoe type" id="shoe type"><br>
+<option>select</option><br>
+<option value="heels">Black Heels</option>
+<option value="heels">Maroon Heels</option>
+<option value="heels">White Heels</option>
+<option value="sandals">White Sandals</option>
+<option value="sandals">Beige Sandals</option>
+<option value="sandals">Black Sandals</option>
+<option value="boots">White Boots</option>
+<option value="boots">Pink Boots</option>
+<option value="boots">Black Boots</option>
+</select>
+</form>
+</center>
+<hr>
+<h2><u>CUSTOMER DETAILS</u></h2>
+<center><form>
+FULL NAME:-
+<input type="text" name="full name"/><br><br>
+E-MAIL ID:-
+<input type="text" name="email id"/><br><br>
+CONTACT NO.-
+<input type="text" name="contact"/><br><br>
+ADDRESS:-
+<input type="text" name="address"/><br><br>
+<input type="submit" value="Place Order">
+</form>
+</body>
+</html>
